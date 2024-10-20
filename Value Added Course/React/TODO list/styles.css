@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  background-color:bisque
+}
+.First{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.content{
+  background:beige;
+}
+.btn_remove{
+  background-color: red;
+  border-radius: 50px;
+}
+.btn_submit{
+  background-color:greenyellow;
+  border-radius: 10px;
+}
+input{
+  border-width: 3px;;
+}
