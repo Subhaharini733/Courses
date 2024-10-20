@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 style="background-color: rgb(233, 147, 113); text-align: center;">CALCULATOR</h1>
+    <hr>
+    <lable><b>Enter number 1:</b</label><br>
+    <input type="number" id="n1"></input>
+    <br><br>
+    <lable><b>Enter number 2:</b></label><br>
+    <input type="number" id="n2"></input>
+    <br><hr><br>
+    <label><b>Addition:</b></label><br>
+    <button type="button" onclick="add()">+</button>
+    <p id="b1"class="addc"></p>
+    <br>
+    <label><b>Subtraction:</b></label><br>
+    <button type="button" onclick="sub()">-</button>
+    <p id="b2" class="subc"></p>
+    <script src="cal.js"></script>
+    <style>
+        body{
+            background-color: rgb(240, 224, 200);
+        }
+    input,label{
+            margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+        }
+    </style>
+</body>
+</html>
