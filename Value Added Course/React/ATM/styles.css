@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+button{
+  background-color:#E3F5E0;
+}
+h1{
+  text-align: center;
+  background-color:bisque
+}
+select,option,input{
+  background-color: lightgoldenrodyellow;
+}
+mark{
+  background-color:#BFD58E;
+}
+.First{
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+.content{
+  background:#E3F5E0;
+}
